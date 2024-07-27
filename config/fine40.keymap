@@ -31,6 +31,8 @@
 &trans         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp LS(COMMA)  &kp LS(DOT)   &trans      &trans
 &trans         &trans      &trans      &trans      &trans      &trans      &trans      &kp C_MUTE  &kp C_VOL_DN   &kp C_VOL_UP  &kp C_PP    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         left {
